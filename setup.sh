@@ -35,16 +35,16 @@ apt-get -y install docker-compose
 
 # ---------------------------------------------------------------- 2
 echo;
-echo ' [2] Opening CashFactory-rpsnp/-nv for change device name --';
+echo ' [2] Opening CashFactory-rpsnp/.env for change device name --';
 echo;
 
 sleep 3;
 
-nano $HOME/CashFactory-rpsnp/-nv;
+nano $HOME/CashFactory-rpsnp/.env;
 
-# ------------------------------------------------------------- 3
+# --------------------------------------------------------------- 3
 echo;
-echo ' [3] Creating data/bitping for setup bitping credentials --';
+echo ' [3] Creating data/bitping for setup bitping credentials ---';
 echo;
 
 sleep 3;
