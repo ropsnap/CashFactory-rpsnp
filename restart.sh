@@ -1,5 +1,10 @@
 #!/bin/bash
 #######################################################################
 
-echo '	Restarting CashFActory...'
+echo '	Restarting CashFactory...'
+
+echo;
+
 docker-compose down && docker-compose up -d;
+
+echo;
